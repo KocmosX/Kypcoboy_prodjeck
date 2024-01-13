@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Kypcoboy_prodjeck" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Kypcoboy_prodjeck" parent="Base.Theme.Kypcoboy_prodjeck" />
+
+    <style name="Theme.Kypcoboy_prodjeck.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Kypcoboy_prodjeck.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Kypcoboy_prodjeck.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
